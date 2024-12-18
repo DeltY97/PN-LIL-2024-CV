@@ -148,13 +148,17 @@ margin-right: 2%;}
     padding-left: 30px;
     margin-right: 2%;}
 
-#intérets{background-color: var(--color1);
+#intérets{
+    background-color: var(--color1);
     color: rgb(0, 0, 0);
     border: solid 2px;
     border-radius: 20px;
     padding-left: 30px;
     padding-top: 5px;
+    padding-right: 10px;
     margin-right: 1%;}
+
+#intérets>p{ padding-left: 20px;}
 
 
 
