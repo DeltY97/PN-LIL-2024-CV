@@ -15,8 +15,9 @@ body{
 }   
 
 #infos{
-    width: 98% ;
+    width: 20% ;
     display: block;
+    height: 80%;
 
     /*margin: 15px;
     padding: 15px;
@@ -29,7 +30,7 @@ body{
     display: flex;
     text-decoration: none;
     color: var(--color1);
-    width: 30%;
+    width: 100%;
     aspect-ratio: 4/1;
     background-color: var(--color3);
     border-radius: 5px;
@@ -64,6 +65,13 @@ body{
     padding-right: 20px;
 }
 
+#combles{
+    color: rgb(1, 18, 113);
+    justify-content: center;
+    margin-top: 7%;
+    margin-left: 15%;
+}
+
 .zone{
     margin: 15px;
     padding: 15px;
@@ -85,6 +93,8 @@ body{
     border: solid 2px black;
     border-radius: 20px;
     width: fit-content;
+    box-shadow: 4px 4px 4px;
+    z-index: 2;
 }
 #part1>#accroche{
     width: 40%;
@@ -104,27 +114,65 @@ body{
 
 }
 
+#espace{margin: 80px;}
+
+#flag{
+    width: 30%;}
 
 #part3{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-
+    
     margin: 15px;
     padding: 15px;
+    /*background-color: var(--color1);
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+    border-radius: 20px;*/
+}
+
+#compétences{background-color: var(--color1);
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 5px;
+margin-right: 2%;}
+
+#informatique{background-color: var(--color1);
+        color: rgb(0, 0, 0);
+        border: solid 2px;
+        border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 30px;
+    margin-right: 2%;}
+
+#intérets{background-color: var(--color1);
+    color: rgb(0, 0, 0);
+    border: solid 2px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-right: 1%;}
+
+
+
+#langues{
+    margin-left: 20px;
     background-color: var(--color1);
     color: rgb(0, 0, 0);
     border: solid 2px;
     border-radius: 20px;
-}
-#langues{
-    margin-left: 70px;
-}
+    padding-left: 30px;
+    padding-top: 5px;
+    margin-right: 2%;
+    width: 17%;}
+
 
 #part25{
     display: flex;
-    flex-direction: column;
-}
+    flex-direction: column;}
 
 a{
     text-decoration: none;
@@ -137,8 +185,7 @@ ul{
 
 .Etablissements{
     font-weight: 800;
-    color: var(--color3);
-}
+    color: var(--color3);}
 
 #photo{
     background-color: var(--color1);
@@ -153,15 +200,13 @@ ul{
     border-radius: 50%;
     margin-top: 10px;
     margin-right: 10px;
-}
+    position: absolute;
+    margin-left: 79%;}
 
 #liens{
     display: flex;
-    flex-direction: column;
-    
-}
+    flex-direction: column;}
 
 h3{
     font-size:140%;
-    color: rgb(1, 18, 113);
-}
+    color: rgb(1, 18, 113);}
